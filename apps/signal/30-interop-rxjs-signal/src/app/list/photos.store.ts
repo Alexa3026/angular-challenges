@@ -3,8 +3,8 @@ import {
   ComponentStore,
   OnStateInit,
   OnStoreInit,
-  tapResponse,
 } from '@ngrx/component-store';
+import { tapResponse } from '@ngrx/operators';
 import { pipe } from 'rxjs';
 import { filter, mergeMap, tap } from 'rxjs/operators';
 import { Photo } from '../photo.model';
